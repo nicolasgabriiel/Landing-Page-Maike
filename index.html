@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Venda</title>
+
+    <link rel="stylesheet" href="./libs/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="mt-4">Escolha seu Plano</h1>
+            <form>
+                <div class="form-check mt-2 mb-2">
+                <input type="radio" class="form-check-input" id="opcao1" name="opcao" value="plano 1" required>
+                <label for="opcao1" class="form-check-label" >Plano 1</label><br>
+
+                <input type="radio" class="form-check-input" id="opcao2" name="opcao" value="plano 2" required>
+                <label for="opcao2" class="form-check-label" >Plano 2</label><br>
+
+                <input type="radio" class="form-check-input" id="opcao3" name="opcao" value="plano 3" required >
+                <label for="opcao3" class="form-check-label" >Plano 3</label><br>
+                </div>
+
+                <div class="d-flex flex-column w-100" >
+                <label for="name">Digite seu nome</label>
+                <input class="p-1" type="text" id="name" required>
+
+                <label for="cpf">Digite seu CPF</label>
+                <input class="p-1" type="text" id="cpf" required>
+
+                <label for="cep">Digite o seu CEP</label>
+                <input class="p-1" type="text" id="cep" required>
+
+                <button type="submit" id="btn-enviar" class="mt-4 p-3 btn btn-success">Continuar pelo WhatsApp</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="./libs/bootstrap.bundle.min.js"></script>
+    <script src="./libs/jquery-3.7.1.min.js"></script>
+    <script src="./libs/jquery.mask.min.js"></script>
+    <script src="/main.js"></script>
+
+</html>
